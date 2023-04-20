@@ -1,0 +1,138 @@
+/* default */
+* {
+  overflow-x: hidden;
+}
+body {
+  background-color: #f5f5f5;
+  color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0;
+  background-color: #1f2041;
+  display: flex;
+  height: 6vh;
+  width: 100vw;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.content {
+  margin-top: 7vh;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  width: 50vw;
+  outline: none;
+  cursor: pointer;
+  height: 6vh;
+  display: flex;
+  align-items: center;
+}
+.nav-item:hover,
+.logout a:hover {
+  background-color: #060614;
+}
+.nav-item a {
+  text-align: center;
+  color: #fbfcff;
+  width: 50vw;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.username {
+  font-size: 1.7rem;
+}
+.logout {
+  position: fixed;
+  right: 0;
+  margin-top: 6vh;
+}
+.logout a {
+  text-decoration: none;
+  color: #fbfcff;
+  border-color: #212529;
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  padding: 1.5rem;
+  background-color: #1f2041;
+  border-bottom-left-radius: 50%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.4rem 0;
+}
+.error {
+  display: none;
+  color: #b02a37;
+}
+
+table {
+  color: #333;
+  font-size: 0.9em;
+  font-weight: 300;
+  line-height: 30px;
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 2px solid #ed1c40;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 2px;
+}
+
+input[type="button"] {
+  transition: all 0.3s;
+  border: 1px solid #ddd;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+input[type="button"]:not(.active) {
+  background-color: transparent;
+}
+
+.active {
+  background-color: #006d77;
+  color: #fff;
+}
+
+input[type="button"]:hover:not(.active) {
+  background-color: #ddd;
+}
+.theaddark {
+  --bs-table-bg: #212529;
+  --bs-table-striped-bg: #2c3034;
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: #373b3e;
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: #323539;
+  --bs-table-hover-color: #fff;
+  color: #fff;
+  border-color: #373b3e;
+}

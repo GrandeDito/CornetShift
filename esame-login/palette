@@ -1,0 +1,8 @@
+--font-family: Arial, Helvetica, sans-serif;
+
+--color-bg: #8f95d3;
+--color-text: black;
+--color-text-hover: #060614;
+
+--color-bg-nav: #1f2041;
+--color-text-nav: #fbfcff;
