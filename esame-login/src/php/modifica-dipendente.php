@@ -48,12 +48,12 @@ if (isset($_POST['submit'])) {
         </div>
     </nav>
     <div class="logout">
-        <a href="./logout.php">logout</a>
+        <a href="./logout.php">Logout</a>
     </div>
     <div class="container content">
         <div class="text-center mb-4">
             <h3>Modifica dipendente</h3>
-            <p>clicca modifica dopo aver modificato correttamente le informazioni</p>
+            <p>Clicca modifica dopo aver modificato correttamente le informazioni</p>
         </div>
         <?php
         $sql = "SELECT * FROM dipendenti WhERE id= $id LIMIT 1";
@@ -79,7 +79,7 @@ if (isset($_POST['submit'])) {
                 </div>
 
                 <div class="container d-flex justify-content-evenly">
-                    <a href="dipendenti.php" class="btn btn-danger">annulla</a>
+                    <a href="dipendenti.php" class="btn btn-danger">Annulla</a>
                     <button type="submit" class="btn btn-success" name="submit">
                         Modifica
                     </button>

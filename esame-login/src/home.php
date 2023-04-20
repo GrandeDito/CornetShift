@@ -33,7 +33,7 @@ if (!isset($_SESSION["username"])) {
     </div>
   </nav>
   <div class="logout">
-    <a href="./php/logout.php">logout</a>
+    <a href="./php/logout.php">Logout</a>
   </div>
   <div class="container content">
     <?php
@@ -46,16 +46,16 @@ if (!isset($_SESSION["username"])) {
     }
     ?>
     <h2 class="center">Benvenuto nel CornetCafe, <span class="username"><?php echo $_SESSION["username"] ?></span></h2>
-    <h4>ecco i turni di questa settimana:</h4>
+    <h4>Ecco i turni di questa settimana:</h4>
     <div class="container d-flex justify-content-evenly">
       <a href="./php/inserisci-turno.php" class="btn btn-dark m-2 mb-3">
-        aggiungi turno di un dipendente
+        Aggiungi turno di un dipendente
       </a>
       <a id="btn-dettaglio" class="btn btn-dark m-2 mb-3" href="./home.php">
-        mostra turni finali
+        Mostra turni finali
       </a>
       <a id=" btn-semplice" class="btn btn-dark m-2 mb-3" href="./home-dettaglio.php">
-        modifica il turno di un dipendente
+        Modifica il turno di un dipendente
       </a>
     </div>
 
@@ -119,7 +119,7 @@ if (!isset($_SESSION["username"])) {
           //   $num_rows++;
           // }
           // echo '<tr onmouseover="this.style.backgroundColor=`#eee`;" onmouseout="this.style.backgroundColor=`transparent`;"><td>' . $data . "</td><td>" . $orario . "</td><td>" . $dipendenti . "</td> <td><a href='./php/modifica-turno.php?id=" . $row['id'] . "' class='link-dark'><i class='fa-solid fa-pen-to-square fs-5 me-3'></i></a><a href='./php/elimina-turno.php?id=" . $row['id'] . "'class='link-dark'><i class='fa-solid fa-trash fs-5'></i></a></td></tr>";
-           echo '<tr onmouseover="this.style.backgroundColor=`#eee`;" onmouseout="this.style.backgroundColor=`transparent`;"><td>' . $data_formattata . "</td><td>" . $orario . "</td><td>" . $dipendenti . "</td></tr>";
+          echo '<tr onmouseover="this.style.backgroundColor=`#eee`;" onmouseout="this.style.backgroundColor=`transparent`;"><td>' . $data_formattata . "</td><td>" . $orario . "</td><td>" . $dipendenti . "</td></tr>";
         }
         // Imposta rowspan per l'ultima riga
         echo "</table>";

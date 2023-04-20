@@ -57,7 +57,7 @@
         </div>
     </nav>
     <div class="logout">
-        <a href="./php/logout.php">logout</a>
+        <a href="./php/logout.php">Logout</a>
     </div>
     <div class="container content">
         <div class="text-center mb-4">
@@ -110,7 +110,7 @@
                     <label for="supporto" class="form-input-label">supporto</label>
                 </div>
                 <div class="container d-flex justify-content-evenly">
-                    <a href="../home.php" class="btn btn-danger">annulla</a>
+                    <a href="../home.php" class="btn btn-danger">Annulla</a>
                     <button type="submit" class="btn btn-success" name="submit">
                         Salva
                     </button>

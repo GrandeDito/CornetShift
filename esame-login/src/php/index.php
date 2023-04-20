@@ -21,7 +21,7 @@
                             <form method="POST" action="./login.php" class="md-5 mt-md-4 pb-4">
                                 <h2 class="fw-bold mb-2">Benvenuto nel CornetCafe, </h2>
                                 <!-- <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i> -->
-                                <h4> effettua il Login</h4>
+                                <h4> Effettua il Login</h4>
                                 <p class="text-white-50 mb-5">Inserisci username e password</p>
 
                                 <div class="form-outline form-white mb-5">

@@ -49,7 +49,7 @@ if (isset($_POST['submit'])) {
         </div>
     </nav>
     <div class="logout">
-        <a href="./logout.php">logout</a>
+        <a href="./logout.php">Logout</a>
     </div>
     <div class="container content">
         <div class="text-center mb-4">
@@ -97,7 +97,7 @@ if (isset($_POST['submit'])) {
                     <label>Ruolo:</label> &nbsp;
                     <input type="radio" class="form-check-input" name="ruolo" id="banconista" value="banconista" <?php echo ($row['ruolo'] == 'banconista') ? "checked" : ""; ?>>
                     <label for="banconista" class="form-input-label">banconista</label> &nbsp;
-                    <input type="radio" class="form-check-input" name="ruolo" id="aiuto_banconista" value="aiuto_banconista" <?php echo ($row['ruolo'] == 'aiuto_banconista') ? "checked" : ""; ?>>
+                    <input type="radio" class="form-check-input" name="ruolo" id="aiuto_banconista" value="aiuto banconista" <?php echo ($row['ruolo'] == 'aiuto_banconista') ? "checked" : ""; ?>>
                     <label for="aiuto_banconista" class="form-input-label">aiuto banconista</label> &nbsp;
                     <input type="radio" class="form-check-input" name="ruolo" id="crepes" value="crepes" <?php echo ($row['ruolo'] == 'crepes') ? "checked" : ""; ?>>
                     <label for="crepes" class="form-input-label">crepiera</label> &nbsp;
@@ -107,7 +107,7 @@ if (isset($_POST['submit'])) {
                     <label for="supporto" class="form-input-label">supporto</label>
                 </div>
                 <div class="container d-flex justify-content-evenly">
-                    <a href="../home-dettaglio.php" class="btn btn-danger">annulla</a>
+                    <a href="../home-dettaglio.php" class="btn btn-danger">Annulla</a>
                     <button type="submit" class="btn btn-success" name="submit">
                         Salva
                     </button>
